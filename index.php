@@ -162,7 +162,7 @@
 
       		$.ajax({
             	type : 'POST',
-           		url : 'https://cekongkiryu.herokuapp.com/ongkir.php',
+           		url : 'https://cekongkiryu.herokuapp.com/cek_ongkir.php',
             	data :  {'kab_id' : kab, 'kurir' : kurir, 'asal' : asal, 'berat' : berat},
 					success: function (data) {
 
